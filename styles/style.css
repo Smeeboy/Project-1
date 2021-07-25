@@ -7,25 +7,80 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
-}
+
 
 .header {
+  background-color: f2f2f2;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
   /* выше установили ограничения для секции */
 }
 
+.header__title {
+ position: absolute;
+ left: 64px;
+ display: flex;
+ z-index: 1;
+ width:730px;
+ font-size:102px;
+ font-weight:bold;
+
+}
+.header__subtitle {
+  position: absolute;
+  left: 64px;
+  width: 338px;
+  font-size: 18px;
+  font-weight: 100;
+  z-index: 1;
+}
+.block {
+  width:183px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.block_logo_place_header {
+  position: absolute;
+  left: 64px;
+  top:30px;
+  height: 32px;
+
+  background-image: url('../images/logo_place_header.svg');
+  z-index: 1;
+
+  height: 82px;
+}
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
+  display: flexbox;
+  color: 2f80ed;
   height: 568px;
   width: 568px;
+  position: absolute;
+  right:0px;
+  top:64px;
 }
-
+.header__main-illustration {
+  background-image: url('../images/header-image.png');
+  position: absolute;
+  width: 765px;
+  height:608px;
+  bottom:0px;
+  right:0px;
+}
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
   color: white;
   margin-right: 0;
   margin-top: 80px;
+}
+
+.block_logo_place_footer {
+  background-image: url('../images/logo_place_footer.svg');
+  height: 35px;
+}
+footer {
+  width:90%;
 }
