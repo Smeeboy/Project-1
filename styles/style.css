@@ -102,6 +102,7 @@
   color: white;
   margin-right: 0;
   margin-bottom: 90px;
+  z-index: 2;
 }
 
 .kaufman__triangle {
@@ -113,11 +114,6 @@
   background-size: contain;
   width: 877px;
   height: 877px;
-}
-
-.logo_place_footer {
-  background-image: url("../images/logo_place_footer.svg");
-  height: 35px;
 }
 
 .two-columns {
@@ -203,10 +199,6 @@
   z-index: 2;
 }
 
-.table__cell_theme_dark {
-  z-index: 2;
-}
-
 .table__cell:last-of-type {
   margin-bottom: 100px;
 }
@@ -255,6 +247,7 @@
   font-weight: normal;
   position: relative;
   z-index: 1;
+
 }
 
 .feynman-illustration {
@@ -274,6 +267,7 @@
   font-size: 35px;
   font-weight: normal;
 }
+
 
 .footer {
   display: flex;
