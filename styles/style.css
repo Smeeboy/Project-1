@@ -45,6 +45,11 @@
   margin-top: 0;
 }
 
+.header__link {
+  color: #2f80ed;
+  text-decoration: none;
+}
+
 .logo {
   width: 183px;
   background-repeat: no-repeat;
@@ -93,7 +98,7 @@
   margin-bottom: 20px;
   line-height: 1.15;
   font-size: 60px;
-  font-weight: 500;
+  font-weight: 700;
   z-index: 2;
 }
 
@@ -101,7 +106,7 @@
   display: block;
   margin: 0 auto;
   margin-top: 20px;
-  margin-bottom: 60px;
+  margin-bottom: 0;
   width: 60%;
   text-align: center;
   line-height: 34px;
@@ -121,7 +126,7 @@
   position: relative;
   color: white;
   margin-top: 20px;
-  margin-bottom: 80px;
+  margin-bottom: 0;
   z-index: 1;
 }
 /* и элемента с модификатором вида ключ-значение */
@@ -154,6 +159,8 @@
   font-size: 18px;
   font-weight: normal;
   color: #2f80ed;
+  margin-top:0;
+  margin-bottom: 0;
 }
 
 .two-columns__paragraph {
@@ -189,6 +196,7 @@
   width: 1100px;
   list-style: none;
   padding-left: 0;
+  margin-bottom: 100px;
 }
 
 .table__cell {
@@ -198,15 +206,14 @@
   margin-bottom: 0;
 }
 
-.table__cell:last-of-type {
-  margin-bottom: 100px;
-}
+/*.table__cell:last-of-type {
+
+}*/
 
 .table__cell_theme_dark {
   width: 200px;
   color: white;
   margin-right: 0;
-  margin-bottom: 90px;
   z-index: 2;
 }
 
@@ -229,16 +236,21 @@
 .table__text_theme_dark {
   color: white;
 }
+
+.table__theme_dark {
+  margin-bottom: 80px;
+}
 .feynman {
   background-color: #f2f2f2;
   position: relative;
   min-height: 790px;
+  padding-top: 100px;
 }
 
 .feynman__title {
   display: block;
   margin: 0 auto;
-  padding-top: 100px;
+
   width: 648px;
   line-height: 1.15;
   font-size: 120px;
