@@ -1,0 +1,10 @@
+.cards__description {
+  line-height: 23px;
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 60px;
+  margin-top: 20px;
+}
+.cards__description:nth-child(3, 4) {
+  margin-bottom: 100px;
+}
